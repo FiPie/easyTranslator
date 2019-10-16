@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <script src="js/script.js" charset="utf-8"></script>
+</head>
+
+<body onload="changeLanguage()">
+  <input type="text" id="word">
+  <button id="translateButton" onclick="a(0)">translate</button>
+  <div id="output">
+
+  </div>
+
+  <form name="myForm">
+    <select name="choice" onchange="changeLanguage()">
+      <option disabled>Choose Language</option>
+      <option value="0" selected>English</option>
+      <option value="1">Spanish</option>
+      <option value="2">French</option>
+      <option value="3">Korean</option>
+    </select>
+  </form>
+
+</body>
+
+</html>
